@@ -1,19 +1,7 @@
 {
-    "compilerOptions": {
-      "target": "ESNext",
-      "module": "NodeNext",
-      "declaration": true,
-      "allowJs": true,
-      "outDir": "dist",
-      "sourceMap": true,
-      "moduleResolution": "NodeNext",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-      "skipLibCheck": true,
-      "noImplicitReturns": false,
-      "noImplicitAny": false
-    },
-    "include": ["src"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
